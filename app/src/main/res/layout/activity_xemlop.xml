@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Xemlop">
+
+
+    <Button
+        android:id="@+id/btn_themlop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm lớp"
+        android:onClick="xlthemlop"/>
+
+    <Button
+        android:id="@+id/btn_trove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trở về"
+        android:onClick="xltrove"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvw_dslop"/>
+</LinearLayout>

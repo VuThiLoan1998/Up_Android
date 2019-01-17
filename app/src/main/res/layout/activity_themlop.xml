@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Themlop">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Them Lop Hoc"
+        android:gravity="center"
+        android:background="#0b0b0b"
+        android:textSize="20sp"
+        android:textColor="#05ff33"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhập mã lớp:" />
+
+        <EditText
+            android:id="@+id/edt_malop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập mã lớp"
+            android:textStyle="italic"
+            android:textColorHint="#2adc16"
+            android:textColor="#da13b6"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhập Tên lớp:" />
+
+        <EditText
+            android:id="@+id/edt_tenlop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập tên lớp"
+            android:textStyle="bold"
+            android:textColorHint="#dcd516"
+            android:textColor="#133eda"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhập sĩ số:" />
+
+        <EditText
+            android:id="@+id/edt_siso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập sĩ số"
+            android:inputType="number"
+            android:textStyle="italic"
+            android:textColorHint="#ec3084"
+            android:textColor="#f73707"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_themlophoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm" />
+
+    <Button
+        android:id="@+id/btn_trovelop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trở về"
+       />
+
+</LinearLayout>
